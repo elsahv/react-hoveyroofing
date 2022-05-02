@@ -74,7 +74,7 @@ const Image = styled.img`
   object-fit: cover;
 `;
 
-const Features = () => {
+const ContactInfo = () => {
   return (
     <Section>
       <Container>
@@ -114,4 +114,4 @@ const Features = () => {
   );
 };
 
-export default Features;
+export default ContactInfo;

@@ -66,7 +66,6 @@ const Footer = () => {
   return (
     <Section>
       <Container>
-     
           <SocialIcons>
             <a
              href='https://www.linkedin.com/in/glen-hovey-72362393'  
@@ -78,20 +77,11 @@ const Footer = () => {
             >
               <Yelp />
             </a>
-
             <Contact>
-                 
                 <div>Copyright HoveyRoofing@ 2021</div>
-                 
-            
-        
           </Contact>
-        
-                 
           </SocialIcons>
-      
       </Container>
-     
     </Section>
   );
 };

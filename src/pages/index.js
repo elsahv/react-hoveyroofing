@@ -1,7 +1,7 @@
 import React from 'react';
-import Features from '../components/Features';
+import ContactInfo from '../components/ContactInfo';
 import Hero from '../components/Hero';
-import Listings from '../components/Listings';
+import RoofStyles from '../components/RoofStyles';
 import { InfoData} from '../data/InfoData';
 import { SliderData } from '../data/SliderData';
 import InfoSection from '../components/InfoSection';
@@ -11,8 +11,8 @@ const Home = () => {
     <>
       <Hero slides={SliderData} />
       <InfoSection {...InfoData} />
-      <Listings />
-      <Features />
+      <RoofStyles />
+      <ContactInfo />
       
     </>
   );

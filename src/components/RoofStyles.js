@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components/macro';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 import HomeOne from '../images/house-5.jpg';
 import HomeTwo from '../images/house-2.jpg';
 
@@ -60,18 +60,18 @@ const Image = styled.img`
   margin-bottom: 1rem;
 `;
 
-const InfoLink = styled(Link)`
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: #000d1a;
-  width: 140px;
-  transition: 0.3s;
+// const InfoLink = styled(Link)`
+//   display: flex;
+//   align-items: center;
+//   text-decoration: none;
+//   color: #000d1a;
+//   width: 140px;
+//   transition: 0.3s;
 
-  &:hover {
-    transform: translateY(-2px);
-  }
-`;
+//   &:hover {
+//     transform: translateY(-2px);
+//   }
+// `;
 
  
 
@@ -86,7 +86,7 @@ const Listings = () => {
             data-aos-once='true'
             data-aos-anchor-placement='center bottom'
           >
-            As Seen on hit-tv show Restored!
+            We offer many styles for the roof that you need
           </h1>
         </Heading>
         <InfoRow>
@@ -98,10 +98,7 @@ const Listings = () => {
           >
             <Image src={HomeOne} alt='home' />
             <h2>Turret</h2>
-            <InfoLink to='/homes'>
-          
-             
-            </InfoLink>
+       
           </InfoWrap>
           <InfoWrap
             data-aos='zoom-out-down'
@@ -120,10 +117,10 @@ const Listings = () => {
               `}
             />
             <h2>Victorian Composition Roof</h2>
-            <InfoLink to='/homes'>
+            {/* <InfoLink to='/'>
           
            
-            </InfoLink>
+            </InfoLink> */}
           </InfoWrap>
         </InfoRow>
       </Container>

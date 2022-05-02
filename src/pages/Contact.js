@@ -1,8 +1,8 @@
 import React from 'react';
-import Features from '../components/Features';
+import ContactInfo from '../components/ContactInfo';
 
 const Contact = () => {
-  return <Features />;
+  return <ContactInfo />;
 };
 
 export default Contact;

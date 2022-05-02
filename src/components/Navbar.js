@@ -24,6 +24,7 @@ const NavLink = css`
   height: 100%;
   cursor: pointer;
   text-decoration: none;
+  text-shadow: 1px 1px 1px black;
 `;
 
 const Logo = styled(Link)`
@@ -100,7 +101,7 @@ const Navbar = ({ toggle }) => {
 
   let style = {
     backgroundColor:
-      navbar || location.pathname !== '/' ? 'maroon' : 'transparent',
+      navbar || location.pathname !== '/' ? 'gray' : 'transparent',
     transition: '0.4s'
   };
 
